@@ -1,0 +1,252 @@
+/* * {
+    border: 1px solid red;
+} */
+
+html {
+    background-color: #1F2937;
+}
+
+body {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.header-top, .header-bottom {
+    width: 65%;
+}
+
+.header-top {
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.official-links a {
+    font-weight: 100;
+    margin-left: 1em;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #60A5FA;
+}
+
+.header-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    justify-content:flex-start;
+    color: white;
+    margin-bottom: 2em;
+    margin-top: 3em;
+}
+
+h1, .header-card p, button {
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.header-card p {
+    width: 20em;
+}
+
+a p {
+    color: black;
+}
+
+button {
+    background-color: #60A5FA;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5em;
+    color: white;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+button a {
+    color: white;
+}
+
+.mh-logo {
+    /* width: 10em;
+    height: 10em; */
+    /* border-radius: 10em; */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+.content {
+    background-color: white;
+    overflow: hidden;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 32px;
+    /* margin-bottom: 32px; */
+}
+
+.img-links-container {
+    display: flex;
+    flex: 1;
+    gap: 3em;
+    justify-content: center;
+    margin-bottom: 32px;
+    height: 30vh;
+    align-items: center;
+}
+
+.img-links {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 10em;
+    height: 15em;
+    /* height: auto; */
+}
+
+/* .img-links a {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+} */
+
+.img-links a p:hover {
+    color: blue;
+}
+
+.img-content {
+    width: 150px;
+    height: 150px;
+    border-radius: 1em;
+    
+}
+
+.content-text {
+    margin-top: 3px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.links-content {
+    text-align: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#actual-quote {
+    width: 45%;
+    font-size: 1.5em;
+    margin: 0;
+}
+
+#customer-name {
+    width: 45%;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    margin-right: 3em;
+}
+
+.sign-up-container {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3em;
+    /* width: 100%;
+    height: auto; */
+}
+
+.sign-up-card {
+    width: 60%;
+    background-color: #3882F6;
+    border-radius: 0.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.sign-up-text {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.sign-up-text h3, .sign-up-text p {
+    color: white;
+    margin: 0;
+    margin-right: 20px;
+}
+
+#sign-up-button {
+    background-color: #3882F6;
+    border: 2px solid white;
+    margin: 0;
+    text-align: center;
+}
+
+.footer {
+    padding: 1em;
+    text-align: center;
+    color: white;
+    background-color: #1F2937;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
