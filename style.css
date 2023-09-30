@@ -1,7 +1,3 @@
-/* * {
-    border: 1px solid red;
-} */
-
 html {
     background-color: #1F2937;
 }
@@ -99,9 +95,6 @@ button a {
 }
 
 .mh-logo {
-    /* width: 10em;
-    height: 10em; */
-    /* border-radius: 10em; */
     display: flex;
     justify-content: center;
     margin-bottom: 2em;
@@ -118,7 +111,6 @@ h2 {
     margin: 0;
     padding: 0;
     margin-top: 32px;
-    /* margin-bottom: 32px; */
 }
 
 .img-links-container {
@@ -134,19 +126,10 @@ h2 {
 .img-links {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
     width: 10em;
     height: 15em;
-    /* height: auto; */
 }
-
-/* .img-links a {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-} */
 
 .img-links a p:hover {
     color: blue;
@@ -207,8 +190,6 @@ h2 {
     justify-content: center;
     align-items: center;
     padding: 3em;
-    /* width: 100%;
-    height: auto; */
 }
 
 .sign-up-card {
