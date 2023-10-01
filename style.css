@@ -101,6 +101,8 @@ button a {
 }
 
 .content {
+    display: flex;
+    flex-direction: column;
     background-color: white;
     overflow: hidden;
 }
@@ -110,7 +112,8 @@ h2 {
     justify-content: center;
     margin: 0;
     padding: 0;
-    margin-top: 32px;
+    margin-top: 64px;
+    margin-bottom: 64px;
 }
 
 .img-links-container {
@@ -119,7 +122,6 @@ h2 {
     gap: 3em;
     justify-content: center;
     margin-bottom: 32px;
-    height: 30vh;
     align-items: center;
 }
 
